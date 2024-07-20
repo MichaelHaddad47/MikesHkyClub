@@ -1,0 +1,170 @@
+.pricing-container {
+    position: relative;
+    width: 100vw;
+    height: 110vh;
+    text-align: center;
+    color: black;
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  .curved-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15vh;
+    background: #1e90ff;
+    border-bottom-left-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .curved-title {
+    color: white;
+    font-size: 2.5em;
+    transform: translateY(50%);
+  }
+  
+  .pricing-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 20px;
+    margin-top: 15vh;
+  }
+  
+  .pricing-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 22%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .premium {
+    position: relative;
+  }
+  
+  .premium-title {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1e90ff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: red;
+  }
+  
+  .price {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .save-33 {
+    color: red;
+    font-size: 0.9em;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transform: rotate(-45deg);
+  }
+  
+  button {
+    background-color: white;
+    color: #1e90ff;
+    border: 2px solid #1e90ff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #1e90ff;
+    color: white;
+  }
+  
+  ul.pricing-checklist {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Centering the text in the list */
+  }
+  
+  .pricing-checklist li {
+    margin: 10px 0;
+    color: black;
+  }
+  
+  .pricing-checklist li::before {
+    content: "✔";
+    color: green;
+    margin-right: 5px;
+  }
+  
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    width: 400px;
+    max-width: 80%;
+  }
+  
+  .popup-title {
+    font-size: 2em;
+    color: #1e90ff;
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+  }
+  
+  .popup ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .popup li {
+    margin: 10px 0;
+  }
+  
+  .popup li::before {
+    content: "✔";
+    color: green;
+    margin-right: 5px;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  

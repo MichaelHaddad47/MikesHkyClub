@@ -1,0 +1,120 @@
+.training-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 96.9vw;
+  height: 235vh;
+  background-color: #f0f8ff;
+}
+
+.training-content {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 20px;
+}
+
+.training-video-section,
+.training-calendar-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.training-video-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.training-video-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.training-video-box {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 30%;
+  height: 350px;
+}
+
+.training-image-placeholder {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.training-video-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.video-time {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.training-calendar-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.training-calendar-info {
+  background-color: #1e90ff;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.training-calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.training-calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.training-calendar-day {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 7px;
+  border-radius: 5px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.training-date {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.training-note {
+  width: 95%;
+  height: 40px;
+  resize: none;
+}

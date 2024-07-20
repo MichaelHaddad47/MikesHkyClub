@@ -1,0 +1,146 @@
+.equipment-container {
+  position: relative;
+  width: 100vw;
+  height: 120vh; /* Increased height */
+  text-align: center;
+  color: black;
+  background-color: white;
+  padding-top: 20px; /* Added whitespace at the top */
+}
+
+.equipment-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.filter-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 30%;
+  height: 90vh; /* Increased height */
+  overflow-y: auto; /* Added scrolling if content exceeds */
+}
+
+.left-box, .right-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.left-box {
+  margin-right: 10px;
+  padding-left: 50px;
+}
+
+.right-box {
+  padding-right: 50px;
+}
+
+.filter-box h3 {
+  margin-bottom: 10px;
+}
+
+.filter-box label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.image-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  width: 55%;
+  height: 85vh; /* Increased height */
+  flex-wrap: wrap;
+  gap: 10px; /* Increased gap to create whitespace */
+  overflow-y: auto; /* Ensure items are scrollable */
+}
+
+.equipment-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  height: 300px; /* Increased height to accommodate button */
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box; /* Include padding in width/height calculation */
+}
+
+.equipment-item img {
+  max-width: 100%;
+  max-height: 100px;
+  margin-bottom: 10px;
+}
+
+.equipment-item .item-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.equipment-item .price {
+  margin-top: auto; /* Pushes price to the bottom */
+}
+
+.add-to-cart {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: white;
+  color: #1e90ff;
+  border: 2px solid #1e90ff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.blue-text {
+  color: #1e90ff;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75); /* Adds blur effect to the background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #1e90ff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.popup h2 {
+  margin-bottom: 10px;
+}

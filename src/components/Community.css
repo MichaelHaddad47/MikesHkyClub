@@ -1,0 +1,135 @@
+.community-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+.community-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.community-total-reviews {
+  display: flex;
+  align-items: center;
+}
+
+.community-stars {
+  color: #1e90ff;
+  margin-right: 10px;
+}
+
+.community-write-review {
+  background-color: white;
+  color: #1e90ff;
+  border: 2px solid #1e90ff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.community-write-review:hover {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.community-reviews-box {
+  position: relative;
+  width: 90%;
+  height: 60vh;
+  border: 1px solid #1e90ff;
+  overflow-y: scroll;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.community-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.community-review-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 22%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  text-align: left;
+}
+
+.community-review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.community-review-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.community-review-info h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.community-review-date {
+  font-size: 0.8em;
+  color: grey;
+  margin: 5px 0;
+}
+
+.community-review-stars {
+  display: flex;
+  align-items: center;
+  color: #1e90ff;
+  margin: 0;
+}
+
+.community-review-text {
+  font-size: 0.9em;
+}
+
+.community-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.community-popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.community-close-popup {
+  background-color: white;
+  color: #1e90ff;
+  border: 2px solid #1e90ff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.community-close-popup:hover {
+  background-color: #1e90ff;
+  color: white;
+}

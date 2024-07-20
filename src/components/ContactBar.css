@@ -1,0 +1,21 @@
+.contact-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-item {
+    text-align: center;
+}
+
+.contact-separator {
+    width: 1px;
+    height: 40px;
+    background-color: white;
+    margin: 0 10px;
+}
