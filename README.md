@@ -17,4 +17,4 @@ By leveraging React's modularity and CSS's styling capabilities, the Website del
 
 <a name="lics"></a>
 ## License
-This project is licensed under the GPL-3.0 License. [License Details](../master/LICENSE.md)
+This project is licensed under the GPL-3.0 License. [License Details](../main/LICENSE.md)
